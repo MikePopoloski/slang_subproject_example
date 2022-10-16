@@ -1,1 +1,1 @@
-This repository is an example of consuming the [slang](https://github.com/MikePopoloski/slang) project via CMake. It uses CMake's FetchContent feature, which means that slang can also equivalently be used via a git submodule and an add_subdirectory call.
+This repository is an example of consuming the [slang](https://github.com/MikePopoloski/slang) project via CMake as a subproject build. It uses CMake's FetchContent feature; slang can also equivalently be used via a git submodule and an add_subdirectory call.
