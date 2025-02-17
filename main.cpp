@@ -33,9 +33,7 @@ int main(int argc, char** argv) {
         return 2;
 
     bool ok = driver.parseAllSources();
-
-    auto compilation = driver.createCompilation();
-    ok &= driver.reportCompilation(*compilation, /* quiet */ false);
+    ok &= driver.runFullCompilation();
 
     return ok ? 0 : 3;
 }
